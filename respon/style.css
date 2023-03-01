@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+background:linear-gradient(to right, #000000 , #eeff00);
+font-size: 1rem;
+}
+.container{
+    max-width: 1180px;
+    padding-inline: 20px;
+    margin-inline:auto;
+    overflow: hidden;
+}
+.top{
+color: rgb(255, 255, 255);
+padding:15px 20px;
+text-align: center;
+}
+.top-text{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.topbanner{
+   
+    background-size: 300px;
+    background-color: rgb(53, 44, 57);
+}
+.flex{
+      display: flex;
+      align-items: center;
+}
+
+ul{
+    list-style: none;
+   
+}
+.logo img{
+    width:90px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav{
+    margin-top: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-toggle{
+    display: flex;
+}
+.linkji{
+    flex-basis: 730px;
+}
+.linkji ul{
+    justify-content: end;
+    gap: 40px;
+}
+.linksd{
+    color: white;
+    transition: .02s ease-out;
+    text-align: center;
+}
+.linksd:hover{
+    color: rgb(28, 0, 244);
+}
+.log{
+    background-color: rgb(80, 77, 77);
+    border-radius: 6px;
+    font-weight:700;
+    padding: 12px 24px;
+   }
+   .log:hover{
+    background-color: rgb(255, 255, 255);
+   }
+   .sign{
+      border: 3px solid white;
+    border-radius: 6px ;
+    font-weight:700;
+    padding: 12px 24px;
+   }
+   .sign:hover{
+    background-color: rgb(70, 68, 68);
+   }
+   .ko img{
+       width:100%;
+   }
+   .head{
+    margin-top: 30px;
+    justify-content: center;
+    gap: 90px;
+   }
+   .save h1{
+    font-size: 3rem;
+   }
+   .save{
+    max-width: 40vw;
+   }
+   header {
+    padding:50px 20px 0 ;
+}
+p{
+    font-size:1.5rem;
+}
+.pp{
+     color: white;
+     transition: .02s ease-out;
+}
+.pp:hover{
+    color: blue;
+}
+.uoo img{
+    width: 225px;
+}
+.uoo{
+    text-align: center;
+}
+.lio{
+    margin-top: 100px;
+    align-items: center;
+    gap:30px;
+    text-align: center;
+}
+.rt{
+    align-items: center;
+    gap:135px;
+    margin-left: 35px;
+}
+.tr{
+    align-items: center;
+    gap:150px;
+    margin-left: 125px;
+}
+.lio2{
+    color: white;
+    
+}
+.lio2:hover{
+    color: blue;
+}
+.sign:hover{
+    background-color: aliceblue;
+}
+.qop{
+    margin-top: 200px;
+    gap:210px;
+}
+.left img{
+    width: 400px;
+}
+.right{
+    max-width: 700px;
+}
+.right h1{
+    font-size:2rem;
+}
+.right p{
+    font-style: oblique;
+}
+.righ{
+    width: 800px;
+    margin-left: 30px;
+}
+.righ p{
+font-style:oblique;
+}
+
+.qiop{
+    margin-top:150px;
+    gap:150px;
+}
+.lp img{
+    width: 300px;
+}
+.ri{
+    width: 600px;
+}
+.company{
+    margin-top: 180px;
+    margin-left: 150px;
+}
+.macha img{
+    width: 100px;
+}
+.macha{
+    margin-left: 180px;
+    margin-right: 30px;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.comp{
+    margin-top: 50px;
+    
+}
+.fot h1{
+    font-size:2rem;
+}
+.fot{
+    margin-top:150px;
+    width: 300px;
+    text-align: center;
+}
+.hogi{
+    margin-top: 150px;
+    background-color: rgb(255, 253, 253);
+    gap: 150px;
+}
+
+.go{
+    color: black;
+}
+.one{
+    display: flex;
+    flex-flow:column;
+    gap:20px;
+    padding: 40px;
+    margin-left: 135px;
+}
+.one h1{
+    font-size:1rem;
+}
+.go:hover{
+    color: blue;
+    transition: 0.2s ease-out;
+}
+.sub-footer{
+    padding-top:15px;
+    max-width: 100vw;
+    height:50px;
+    background-color: rgb(53, 44, 41);
+
+}
+.sub{
+/* text-align: center;
+    gap: 45px;
+    margin-left: 480px;
+    align-items: center;
+    flex-wrap: wrap;*/
+    justify-content: center;
+    gap:60px;
+    flex-wrap: wrap;
+}
+.fb{
+    color:aliceblue;
+}
+.fb:hover{
+    color: rgb(8, 39, 66);
+    
+}
+
+.mdq{
+   gap: 70px;
+   flex-wrap: wrap;
+}
+.www{
+    max-width: 100px;
+}
+.coi{
+    gap:70px;
+}
+.oko{
+    max-width: 600px;
+}
